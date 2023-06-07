@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Inter', sans-serif;
+  background-color: #1a1b21;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  max-width: 400px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+/* Add the following CSS for all content within .content */
+.content > * {
+  width: 100%;
+  height: 100%;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  min-width: 100%;
+  justify-content: space-between;
+}
+
+.info-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  letter-spacing: 2px;
+  margin-top: 21px;
+  width: 100%;
+}
+.profile-picture {
+  width: 100%;
+  height: 305px;
+  object-fit: cover;
+}
+
+.name-header {
+  font-weight: 700;
+  color: white;
+  font-size: 30px;
+}
+
+.occupation {
+  font-weight: 400;
+  font-size: 15px;
+
+  color: #f3bf99;
+}
+
+.website-link {
+  color: #f5f5f5;
+  font-weight: 400;
+
+  font-size: 12px;
+}
+
+.buttons-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  height: 34px;
+  margin-top: 20px;
+}
+
+.button {
+  width: 115px;
+  max-height: 100%;
+  border-radius: 8px;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.email-button {
+  background-color: white;
+}
+
+.linkdin-button {
+  background-color: #5093e2;
+  color: white;
+}
+.bio-container h1 {
+  color: white;
+  font-size: 20px;
+}
+.bio-container {
+  color: white;
+  margin: 30px 35px 30px;
+  display: flex;
+  color: #b0b0b0;
+  flex-direction: column;
+  font-size: 13px;
+  gap: 4px;
+  line-height: 20px;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #161619;
+  padding: 10px;
+}
